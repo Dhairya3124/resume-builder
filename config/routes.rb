@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   post   'signup'  => 'users#create'
          
 
-  resources :profiles , only: [:update]
+  resources :profiles , only: [:update, :show]
   resources :educations , only: [:new]
+  resources :experiences , only: [:new]
 end
