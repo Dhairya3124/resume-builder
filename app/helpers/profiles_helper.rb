@@ -14,5 +14,13 @@ module ProfilesHelper
         params[:secondary_skills] = get_array_from_comma_separated_string(params[:secondary_skills])
         params
     end
+    def avatar_url(profile)
+        if profile.avatar.attached?
+            url_for(profile.avatar)
+        else
+            image_path("download.png")
+        end
+    end
+
     
 end
