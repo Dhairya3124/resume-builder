@@ -7,12 +7,22 @@
 - tailwindcss
 
 ## Setup
-
+Install all the dependencies:
+```
+bundle install
+yarn
+```
 Run following command to create first user after migrating database.
 
 ```
 rake db:seed
 ```
 
-Email: `johndoe@example.com`
-Password: `password`
+Instructions:
+- Start the server by 
+```
+ rails s -b 0.0.0.0
+
+```
+- Create a New User
+- Login to the new user
