@@ -1,4 +1,4 @@
-# Flexiple Assignment
+# Resume Builder
 
 ## Tech stack for this app
 
